@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>My Pathway</title>
+
+<link href="styles.css" type="text/css" rel="stylesheet"/>
+<link href="bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet"/>
+<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="jquery1_8.js"></script>
+<script type="text/javascript" src="addRemove.js"></script>
+<script type="text/javascript" src="tooltip.js"></script>
+<script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+
+</head>
+
+<body>
+
+	<div id="header">
+   		<a id="homelink" href="index.html"><span>HOME&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+        <a id="recentlink" href="#"><span>RECENT SEARCHES &or;</span></a>
+    	<a id="login" href="#" onclick=")"><span>LOG IN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+        <a id="mypathlink" href="mypath.html"><span>MY PATHWAYS</span></a>
+    </div>
+    
+    <div id="logo">
+        	<a href="index.html"><h1>&nbsp;Pathways</h1></a>
+            <span><i>&nbsp;My Pathway</b></i></span>
+    </div>
+    
+	<div id="results">
+        
+          <div id="TabbedPanels1" class="TabbedPanels">
+          
+                  <ul class="TabbedPanelsTabGroup nav nav-tabs">
+                    <li class="TabbedPanelsTab" tabindex="0">Classes</li>
+                    <li class="TabbedPanelsTab" tabindex="1">Clubs</li>
+                    <li class="TabbedPanelsTab" tabindex="2">Events</li>
+                    <li class="TabbedPanelsTab" tabindex="3">Connect</li>
+                    <li class="TabbedPanelsTab" tabindex="4">Create</li>
+                  </ul>
+                  
+                  <div class="TabbedPanelsContentGroup tab-content">
+                    <div id="parent" class="TabbedPanelsContent">
+                    	<div id="child" class="listing">
+                        	<a class="remove" href="#" onClick=""><button class="btn btn-danger" onClick="removeElement('parent','child');">&times;</button></a>
+                        	<h2>COSC 015:&nbsp;&nbsp;</h2><h3>Intro to Computer Science Using Ruby</h3>
+                            <p class="des">&nbsp;&nbsp;&nbsp;&nbsp;Basic knowledge of Computer Science, using a non-mathematical approach geared towards students of Humanities and Social Sciences, will be developed. Students will acquire an understanding of the methods used to arrive at solutions of text related problems, games and other non mathematical processes, using a subset of a novel programming language...</p>
+                            <a class="firstlink" href="http://courses.georgetown.edu/index.cfm?Action=View&CourseID=COSC-015">...see more</a>
+                            <a class="morelink" href="#" onClick=""><button class="btn btn-link">&rArr; Four Others Who Are Interested</button></a>
+                        <hr />
+                        </div>
+                    	<div class="listing">
+                            <a class="remove" href="#" onClick=""><button class="btn btn-danger">&times;</button></a>
+                        	<h2>COSC 051:&nbsp;&nbsp;</h2><h3>Computer Science I</h3>
+                            <p class="des">&nbsp;&nbsp;&nbsp;&nbsp;This course is intended for computer science majors and minors, and other students with a serious interest in learning C++ programming. The course covers the following topics: basic data types, the C++ string class, variables and constants, and their declaration, ...</p>
+                            <a class="firstlink" href="http://courses.georgetown.edu/index.cfm?Action=View&CourseID=COSC-051">...see more</a>
+                            <a class="morelink" href="#" onClick=""><button class="btn btn-link">&rArr; Ten Others Who Are Interested</button></a>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="TabbedPanelsContent">
+                    	<div class="listing">
+                        	<a class="remove" href="#" onClick=""><button class="btn btn-danger">&times;</button></a>
+                            <h2>Students Serving Students, Inc.:&nbsp;&nbsp;</h2><h3>Office of IT/Marketing</h3>
+                            <p class="des">&nbsp;&nbsp;&nbsp;&nbsp;The Corp’s youngest services are IT (’05), Catering (’09), Ink (’11), and TAG (’11). IT, The Corp’s smallest service, is responsible for maintaining The Corp’s website and Point of Sale system, and finding time- and cost-saving opportunities that increased use of technology yields...</p>
+                            <a class="firstlink" href="http://thecorp.org">...see more</a>
+                            <a class="morelink" href="#" onClick=""><button class="btn btn-link">&rArr; Forty-Seven Others Who Are Involved</button></a>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="TabbedPanelsContent">
+                    	<div class="listing">
+                        	<a class="remove" href="#" onClick=""><button class="btn btn-danger">&times;</button></a>
+                        	<h2>Georgetown Hackathon</h2><h3></h3>
+                            <p class="des">&nbsp;&nbsp;&nbsp;&nbsp;Students and alumni work alongside designers and engineers to create apps or products that will transform Georgetown University and better the student experience...</p>
+                            <a class="firstlink" href="http://h.georgetown.edu/?page_id=866">...see more</a>
+                            <a class="morelink" href="#" onClick=""><button class="btn btn-link">&rArr; Eight-Five Others Who Are Attending</button></a>
+                        </div>
+                        <hr />
+                        <div class="listing">
+                        	<a class="remove" href="#" onClick=""><button class="btn btn-danger">&times;</button></a>
+                        	<h2>Entrepreneurship Day</h2><h3></h3>
+                            <p class="des">&nbsp;&nbsp;&nbsp;&nbsp;Entrepreneurship Day is a highlight of the various entrepreneurial programs at Georgetown University’s McDonough School of Business...</p>
+                            <a class="firstlink" href="http://msb.georgetown.edu/story/1242676155814.html">...see more</a>
+                            <a class="morelink" href="#" onClick=""><button class="btn btn-link">&rArr; Fifteen Others Who Are Attending</button></a>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="TabbedPanelsContent">
+                        <div class="listing">
+                        	<a class="remove" href="#" onClick=""><button class="btn btn-danger">&times;</button></a>
+                        	<img src="images/jkear.png" height="125px" width="580px"/>
+                            <a class="in contactlink" href="#"><button class="btn btn-info">Go to LinkedIn Profile</button></a><br><br>
+                            <a class="in addlink" href="#" onClick=""><button class="btn btn-link">See Mutual Connections</button></a>
+                        </div>
+                        <hr />
+                        <div class="listing">
+                        	<a class="remove" href="#" onClick=""><button class="btn btn-danger">&times;</button></a>
+                        	<img src="images/linkmem.png" height="125px" width="580px"/>
+                            <a class="in contactlink" href="#"><button class="btn btn-info">Go to LinkedIn Profile</button></a><br><br>
+                            <a class="in addlink" href="#" onClick=""><button class="btn btn-link">See Mutual Connections</button></a>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="TabbedPanelsContent">
+                    	<h3>Join one of these student-led learning initiatives already existing: </h3><br>
+                        	<div id="existgroups">
+                                <div class="square listing">
+                        			<a class="remove" href="#" onClick=""><button class="btn btn-danger">&times;</button></a>
+                                    <h4>Learning Practical Ruby and Ruby on Rails</h4>
+                                    <p class="des">Learn together how to program using Ruby and Ruby on Rails; build complex back-end web solutions using these skills.</p>
+                                    <a href="#"><button class="btn btn-link" onMouseOver="show('tooltip');" onMouseOut="hide('tooltip');">&rArr; Six Others Who Are Involved</button></a>
+                                    <div id="tooltip">
+                                    	<ul>
+                                        	<li>am996</li>
+                                            <li>icl3</li>
+                                            <li>cmd246</li>
+                                            <li>amr326</li>
+                                            <li>jec45</li>
+                                            <li>tef428</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="square listing">
+                        			<a class="remove" href="#" onClick=""><button class="btn btn-danger">&times;</button></a>
+                                    <h4>Basic Web Design Consortium</h4>
+                                    <p class="des">Looking for other students who want to learn how to use HTML/CSS to code for the front-end of websites.</p>
+                                    <a href="#"><button class="btn btn-link">&rArr; Twelve Others Who Are Involved</button></a>
+                                </div>
+                            </div>
+                        <h3>Or create your own group to start learning collaboratively here: </h3>
+                        	<div id="creategroup">
+                                <div class="creatediv">
+                                        <label for="inputEmail">NetID</label>
+                                          <input type="text" id="inputEmail" placeholder="NetID">
+                                        <label for="inputPassword">Password</label>
+                                          <input type="password" id="inputPassword" placeholder="Password">
+                                 </div>
+                                 <textarea rows="5">What do you want to learn about with others...</textarea>
+                                 <button class="btn btn-success"><a href="#">&rArr;&nbsp;Create Group!</a></button>
+                            </div>
+                    </div>
+                  </div>
+                  
+          </div>
+          
+        </div>
+        
+        <script type="text/javascript">
+        var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+        </script>
+        
+</body>
+
+</html>
